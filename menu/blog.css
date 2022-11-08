@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #ffebc5;
+}
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /**background-color: rgb(24, 136, 167);**/
+    background-image: url("../images/background5.jpg");
+    background-size: 75rem;
+    border-bottom: orange 2px solid;
+}
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+.logo {
+    padding-top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.whatsapp {
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    animation: whatsapp-underline 5s ease-in-out infinite;
+    padding: 11px 2px 11px 2px;
+}
+@keyframes whatsapp-underline {
+    0% {background-color: #ffebc53f;}
+    50% {background-color: rgba(255, 255, 255, 0);}
+    100% {background-color: #ffebc53f;}
+}
+.navigation-bar {
+    background-color: #ffebc585;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 14px;
+}
+.navigation-bar li a {
+    text-decoration: none;
+    color: black;
+}
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding: 10px 2px 10px 2px;
+}
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+    cursor: pointer;
+    background-color: #ffebc5;
+}
