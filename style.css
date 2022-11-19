@@ -267,8 +267,17 @@ header {
 .tick {
     font-size: 36px;
 }
+.arrow-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.arrow {
+    width: 150px;
+}
 .youtube {
     margin-top: 60px;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     background-color: rgba(217, 217, 217, 0.6);
@@ -277,9 +286,11 @@ header {
     text-align: center;
     font-family: cursive;
     background-color: rgba(217, 217, 217, 0.6);
+    border: 2px solid orange;
 }
 
 .pain {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
