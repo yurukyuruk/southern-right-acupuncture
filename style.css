@@ -330,38 +330,40 @@ header {
     margin-left: 5px;
 }
 .pain div h1 {
-    font-weight: 100;
     font-size: 36px;
     font-family: cursive;
     margin: 0;
     padding-bottom: 30px;
+    color: orange;
 }
 .pain-first-part {
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    background-color: #869bc3;
     font-size: 20px;
     flex: 1;
 }
 .pain-second-part {
-    display: flex;
-    flex-direction: column;
+    background-image: url("images/back-white-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     align-self: stretch;
-    background-color: #869bc3;
+    flex: 1;
     font-size: 20px;
-    flex: 1;
-}
-.pain-third-part {
-    background-image: url("images/back.jpg");
-    background-size: 33vw 100%;
-    flex: 1;
-    align-self: stretch;
+    padding-left: 60px;
 }
 .pain-first-part p {
     padding: 5px;
     margin-top: -7px;
     padding-top: 0;
+}
+.pain-second-part p {
+    margin-top: 0;
+}
+.pain-second-part ul{
+    list-style-type: circle;
+    padding-left: 20px;
 }
 .pain img {
     width: 50%;
