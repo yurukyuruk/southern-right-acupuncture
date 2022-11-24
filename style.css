@@ -218,7 +218,7 @@ header {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 98vw;
     align-self: center;
     font-family: cursive;
     border: dotted 10px orange;
@@ -275,15 +275,14 @@ header {
 .arrows {
     display: flex;
     justify-content: space-around;
-    width: 60vw;
+    width: 100vw;
     align-self: center;
 }
 .arrow {
     width: 150px;
 }
 .youtube-section {
-    margin-top: 60px;
-    padding: 60px 0 60px 0;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     background-color: rgba(217, 217, 217, 0.6);
@@ -315,7 +314,7 @@ header {
     color: orange;
 }
 .pain {
-    margin-top: 60px;
+    margin-top: 120px;
     display: flex;
     align-items: center;
     font-family: cursive;
@@ -368,15 +367,15 @@ header {
     width: 50%;
 }
 .feedbacks {
-    margin-top: 60px;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 166, 0, 0.263);
+    background-color: rgba(217, 217, 217, 0.6);
 }
 .feedback {
     width: 30vw;
     background-color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: cursive;
     margin: 60px 20px 60px 20px;
     border: 2px solid orange;
@@ -399,12 +398,14 @@ header {
 .whatsapp-section {
     display: flex;
     justify-content: center;
-    border: 2px solid orange;
-    margin-top: 60px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    margin-top: 120px;
 }
 .whatsapp-section h4 {
     font-family: cursive;
     font-size: 20px;
+    margin: 15px;
 }
 footer {
     background-color: rgba(217, 217, 217, 0.6);
