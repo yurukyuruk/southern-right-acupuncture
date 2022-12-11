@@ -397,7 +397,7 @@ header {
 .whatsapp-section {
     display: flex;
     justify-content: center;
-    background-color: rgba(217, 217, 217, 1);;
+    background-color: rgb(196, 195, 195);;
 }
 .whatsapp-section h4 {
     font-family: cursive;
@@ -405,7 +405,7 @@ header {
     margin: 15px;
 }
 footer {
-    background-color: rgba(217, 217, 217, 1);
+    background-color: rgb(165, 165, 165);
     display: flex;
     flex-direction: column;
     align-items: center;
