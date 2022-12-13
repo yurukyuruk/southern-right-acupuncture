@@ -83,3 +83,141 @@ header {
     cursor: pointer;
     background-color: #ffffff70;
 }
+main {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tai-chi-first-part {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+.tai-chi-second-part {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tai-chi-second-part img {
+    width: 50px;
+    height: 50px;
+}
+.first-leaf {
+    margin-right: 15px;
+}
+.second-leaf {
+    margin-left: 15px;
+}
+.tai-chi-second-part p {
+    font-size: 20px;
+    text-align: center;
+}
+.tai-chi-photo-section {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tai-chi-photo-section img {
+    width: 300px;
+}
+.tai-chi-photo-section p {
+    font-size: 20px;
+    padding-left: 5px;
+    margin: 0;
+    margin-top: -6px;
+}
+.tai-chi-last-part {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: rgba(217, 217, 217, 0.6);
+}
+.times-section {
+    font-size: 20px;
+    text-align: center;
+}
+.times-header {
+    margin-top: 50px;
+}
+.time-explanation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.whatsapp-link {
+    color: black;
+    font-weight: bold;
+}
+.whatsapp-link:hover {
+    color: gray;
+}
+.water-section {
+    padding-top: 5px;
+}
+.water-section p {
+    margin-bottom: 0;
+}
+.book-section {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 17px;
+    background-color: rgba(217, 217, 217, 0.6);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.book-section p a {
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.book-section p a:hover {
+    background-color: white;
+}
+footer {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsapp-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);;
+}
+.whatsapp-section h4 {
+    font-family: cursive;
+    font-size: 20px;
+    margin: 15px;
+}
+.designer {
+    display: flex;
+}
+footer p {
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
