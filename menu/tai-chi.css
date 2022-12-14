@@ -182,6 +182,7 @@ main {
     padding-right: 20px;
 }
 .book-section p a {
+    background-color: white;
     margin-left: 20px;
     color: gray;
     text-decoration: none;
@@ -192,7 +193,7 @@ main {
     border-radius: 15px;
 }
 .book-section p a:hover {
-    background-color: white;
+    background-color: rgba(217, 217, 217, 0.6);
 }
 footer {
     background-color: rgb(165, 165, 165);
