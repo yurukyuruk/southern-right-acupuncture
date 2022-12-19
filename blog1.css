@@ -20,9 +20,7 @@ header {
 .logo-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  
-    
+    align-items: center;   
 }
 .logo {
     width: 130px;
@@ -76,10 +74,51 @@ header {
     text-decoration: none;
     color: black;
 }
-.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
-.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
     cursor: pointer;
     background-color: #ffffff70;
+}
+main section {
+    padding: 50px 20px 20px 20px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgba(217, 217, 217, 0.6);
+    text-align: center;
+}
+main section div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section img {
+    width: 400px;
+}
+footer {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsapp-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);;
+}
+.whatsapp-section h4 {
+    font-family: cursive;
+    font-size: 20px;
+    margin: 15px;
+}
+.designer {
+    display: flex;
+}
+footer p {
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
 }
