@@ -94,7 +94,7 @@ header {
     font-family: cursive;
     font-size: 30px;
     width: calc(100vw - 300px);
-    color: #6c6c8c;
+    color: orange;
 }
 .gideon-image {
     width: 300px;
@@ -103,23 +103,23 @@ header {
     text-align: center;
     font-family: cursive;
     font-size: 19px;
-    color: #6c6c8c;
     padding: 0 20px 0 20px;
     margin-top: 50px;
 }
 .gideon-main-explanation {
     display: inline;
-    border-bottom: 2px solid hsla(240, 13%, 49%, 0.6);
     font-size: 22px;
 }
+.gideon-main-explanation strong {
+    color: orange;
+}
 .qualifications-section {
-    border-top: 2px solid hsla(240, 13%, 49%, 0.6);
-    border-bottom: 2px solid hsla(240, 13%, 49%, 0.6);
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
     text-align: center;
     margin-top: 50px;
     padding: 20px 20px 50px 20px;
     font-family: cursive;
-    color: #6c6c8c;
 }
 .qualifications-section h2 {
     padding-top: 0;
@@ -138,13 +138,12 @@ header {
     font-family: cursive;
     font-size: 19px;
     text-align: center;
-    color: rgb(121, 121, 121);
 }
 .book-section h3 {
     margin-top: 40px;
 }
 .book-section p a {
-    color: rgb(121, 121, 121);
+    color: orange;
 }
 .mission-vision-section {
     padding-left: 20px;

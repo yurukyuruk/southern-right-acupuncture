@@ -87,7 +87,7 @@ main {
     font-family: cursive;
 }
 main h1 {
-    color: #6c6c8c;
+    color: orange;
     text-align: center;
 }
 .acupuncture-first-section {
@@ -96,10 +96,9 @@ main h1 {
     display: flex;
 }
 .acupuncture-first-section p {
-    color: #6c6c8c;
     flex: 1;
     font-size: 20px;
-    border-bottom: 2px solid hsla(240, 13%, 49%, 0.4);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -116,20 +115,20 @@ main h1 {
 .acupuncture-second-section p {
     margin: -6px 0 0 20px;
     font-size: 20px;
-    color: #6c6c8c;
 }
 .acupucture-image {
     width: 300px;
 }
 .acupuncture-third-section {
-    background-color: rgba(186, 163, 168, 0.425);
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
     padding: 40px 20px 40px 20px;
     text-align: center;
     font-size: 17px;
     margin-top: 40px;
 }
 .acupuncture-third-section a {
-    color: rgb(223, 166, 176);
+    color: orange;
 }
 .acupuncture-forth-section {
     text-align: center;
