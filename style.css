@@ -76,10 +76,10 @@ header {
     text-decoration: none;
     color: black;
 }
-.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
-.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
     cursor: pointer;
     background-color: #ffffff70;
 }
@@ -382,17 +382,23 @@ header {
     padding: 5px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.feedback p {
+    padding: 0 10px 10px 10px;
+    margin-top: 0;
+}
 .name-and-stars {
     display: flex;
     align-items: center;
+    padding: 0 10px 0 10px;
 }
 .stars {
     display: flex;
     padding-left: 20px;
 }
 .star {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 footer {
     background-color: rgb(165, 165, 165);

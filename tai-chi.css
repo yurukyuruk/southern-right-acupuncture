@@ -76,10 +76,10 @@ header {
     text-decoration: none;
     color: black;
 }
-.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
-.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
     cursor: pointer;
     background-color: #ffffff70;
 }

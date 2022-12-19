@@ -76,10 +76,116 @@ header {
     text-decoration: none;
     color: black;
 }
-.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
-.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
     cursor: pointer;
     background-color: #ffffff70;
+}
+.gideon-image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.6);
+}
+.gideon-image-section h1 {
+    font-family: cursive;
+    font-size: 30px;
+    width: calc(100vw - 300px);
+    color: #6c6c8c;
+}
+.gideon-image {
+    width: 300px;
+}
+.gideon-explanations {
+    text-align: center;
+    font-family: cursive;
+    font-size: 19px;
+    color: #6c6c8c;
+    padding: 0 20px 0 20px;
+    margin-top: 50px;
+}
+.gideon-main-explanation {
+    display: inline;
+    border-bottom: 2px solid hsla(240, 13%, 49%, 0.6);
+    font-size: 22px;
+}
+.qualifications-section {
+    border-top: 2px solid hsla(240, 13%, 49%, 0.6);
+    border-bottom: 2px solid hsla(240, 13%, 49%, 0.6);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 20px 50px 20px;
+    font-family: cursive;
+    color: #6c6c8c;
+}
+.qualifications-section h2 {
+    padding-top: 0;
+    margin-top: 20px;
+}
+.qualifications-section p {
+    font-size: 19px;
+}
+.qualifications-section h3 {
+    margin-top: 40px;
+}
+.qualifications-section-last-paragraph {
+    margin-bottom: 0;
+}
+.book-section {
+    font-family: cursive;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(121, 121, 121);
+}
+.book-section h3 {
+    margin-top: 40px;
+}
+.book-section p a {
+    color: rgb(121, 121, 121);
+}
+.mission-vision-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(217, 217, 217, 0.6);
+    font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+}
+.mission-section h3 {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.vision-section p {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+footer {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsapp-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);
+}
+.whatsapp-section h4 {
+    font-family: cursive;
+    font-size: 20px;
+    margin: 15px;
+}
+.designer {
+    display: flex;
+}
+footer p {
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
 }

@@ -76,10 +76,10 @@ header {
     text-decoration: none;
     color: black;
 }
-.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog, .contact {
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
-.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover, .contact:hover {
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
     cursor: pointer;
     background-color: #ffffff70;
 }
@@ -87,6 +87,7 @@ main {
     font-family: cursive;
 }
 main h1 {
+    color: #6c6c8c;
     text-align: center;
 }
 .acupuncture-first-section {
@@ -95,9 +96,10 @@ main h1 {
     display: flex;
 }
 .acupuncture-first-section p {
+    color: #6c6c8c;
     flex: 1;
     font-size: 20px;
-    border-bottom: 2px solid rgba(217, 217, 217, 0.6);
+    border-bottom: 2px solid hsla(240, 13%, 49%, 0.4);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -114,41 +116,20 @@ main h1 {
 .acupuncture-second-section p {
     margin: -6px 0 0 20px;
     font-size: 20px;
+    color: #6c6c8c;
 }
 .acupucture-image {
     width: 300px;
 }
-.acupuncture-line-1 {
-    margin-top: 50px;
-    border-bottom: 2px solid rgba(223, 166, 176, 0.425);
-}
-.acupuncture-line-2 {
-    margin-top: 5px;
-    border-bottom: 2px solid rgba(186, 163, 168, 0.425);
-}
-.acupuncture-line-3 {
-    margin-top: 5px;
-    border-bottom: 2px solid rgba(217, 217, 217, 0.6);
-}
 .acupuncture-third-section {
-    padding: 20px;
+    background-color: rgba(186, 163, 168, 0.425);
+    padding: 40px 20px 40px 20px;
     text-align: center;
     font-size: 17px;
+    margin-top: 40px;
 }
 .acupuncture-third-section a {
     color: rgb(223, 166, 176);
-}
-.acupuncture-line-4 {
-    margin-top: 5px;
-    border-bottom: 2px solid rgba(217, 217, 217, 0.6);
-}
-.acupuncture-line-5 {
-    margin-top: 5px;
-    border-bottom: 2px solid rgba(186, 163, 168, 0.425);
-}
-.acupuncture-line-6 {
-    margin-top: 5px;
-    border-bottom: 2px solid rgba(223, 166, 176, 0.425);
 }
 .acupuncture-forth-section {
     text-align: center;
