@@ -475,6 +475,7 @@ footer p {
     }
     .navigation-image {
         width: 75px;
+        margin-right: 5vw;
     }
     .navigation-bar {
         display: none;
@@ -545,6 +546,12 @@ footer p {
     .navigation-image {
         width: 50px;
     }
+    .arrows {
+        justify-content: center;
+    }
+    .last-arrow {
+        display: none;
+    }
 }
 @media (max-width: 480px) {
     .name {
@@ -559,14 +566,17 @@ footer p {
     .pain {
         margin-top: 60px;
     }
+    .feedbacks {
+        margin-top: 60px;
+    }
 }
 @media (max-width: 440px) {
     .logo-image-section {
-        width: 90px;
+        width: 80px;
     }
     .logo {
-        width: 90px;
-        height: 75px;
+        width: 80px;
+        height: 65px;
     }
     .name {
         font-size: 18px;
