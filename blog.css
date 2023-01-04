@@ -49,7 +49,8 @@ header {
     width: 32px;
     height: 32px;
 }
-.whatsapp {
+.whatsapp a {
+    text-decoration: none;
     color: #ffffff8a;
     font-family: cursive;
     font-size: 22px;
@@ -70,7 +71,7 @@ header {
     position: relative;
     z-index: 1;
 }
-.navigation-bar li a {
+.navigation-bar a {
     text-decoration: none;
     color: black;
 }
@@ -131,6 +132,10 @@ footer {
     font-family: cursive;
     font-size: 20px;
     margin: 15px;
+}
+.whatsapp-section h4 a {
+    text-decoration: none;
+    color: black;
 }
 .designer {
     display: flex;

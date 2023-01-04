@@ -21,8 +21,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    
 }
 .logo {
     width: 130px;
@@ -38,7 +36,6 @@ header {
     color: rgb(0, 0, 0);
     font-family: cursive;
     font-size: 30px;
-  
 }
 .whatsapp-section-top {
     width: 33vw;
@@ -51,13 +48,17 @@ header {
     width: 32px;
     height: 32px;
 }
-.whatsapp {
+.whatsapp a {
+    text-decoration: none;
     color: #ffffff8a;
     font-family: cursive;
     font-size: 22px;
     font-weight: 100;
     padding-left: 10px;
     margin: 0;
+}
+.mobile-navigation {
+    display: none;
 }
 .navigation-bar {
     background-color: #ffffff47;
@@ -72,7 +73,7 @@ header {
     position: relative;
     z-index: 1;
 }
-.navigation-bar li a {
+.navigation-bar a{
     text-decoration: none;
     color: black;
 }
@@ -262,10 +263,19 @@ header {
 .benefit-items {
     display: flex;
     align-items: center;
+    transition: transform 0.5s ease-in-out;
 }
 .tick {
     font-size: 36px;
     padding-right: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.benefit-items:hover .tick {
+    transform: scale(1.2);
+    color: orange;
+}
+.benefit-items:hover {
+    transform: scale(1.2);
 }
 .arrow-section {
     display: flex;
@@ -410,12 +420,16 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(196, 195, 195);;
+    background-color: rgb(196, 195, 195);
 }
 .whatsapp-section h4 {
     font-family: cursive;
     font-size: 20px;
     margin: 15px;
+}
+.whatsapp-section h4 a {
+    text-decoration: none;
+    color: black;
 }
 .designer {
     display: flex;
@@ -426,4 +440,133 @@ footer p {
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
+}
+
+@media (max-width: 720px) {
+    .logo-section {
+        width: 90vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+    }
+    .logo-image-section {
+        width: 130px;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .whatsapp-section-top {
+        display: none;
+    }
+    .mobile-navigation {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation-image {
+        width: 75px;
+    }
+    .navigation-bar {
+        display: none;
+    }
+    .slider {
+        width: 90vw;
+    }
+    .slide img {
+        width: 90vw;
+    }
+    .navigation-manual {
+        width: 90vw;  
+    }
+   
+    .navigation-auto {
+        width: 90vw;
+    }
+    .face-rejuvenation-first-part {
+        flex-direction: column;
+    }
+    .face-rejuvenation-benefits {
+        border-radius: 0;
+    }
+    .face-rejuvenation-benefits-inside-dots {
+        border-radius: 0;
+    }
+    .youtube {
+        width: 90vw;
+        padding-bottom: 50%;
+    }
+    .pain {
+        flex-direction: column;
+    }
+    .pain-first-part {
+        padding-right: 20px;
+    }
+    .pain-second-part {
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+    .pain div h1 {
+        width: 98vw;
+        text-align: center;
+    }
+    .feedbacks {
+        flex-direction: column;
+    }
+    .feedback {
+        width: 90vw;
+        margin: 60px 20px 0px 20px;
+    }
+    .last-feedback {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 640px) {
+    .logo-image-section {
+        width: 100px;
+    }
+    .logo {
+        width: 100px;
+        height: 85px;
+    }
+    .name {
+        font-size: 24px;
+    }
+    .navigation-image {
+        width: 50px;
+    }
+}
+@media (max-width: 480px) {
+    .name {
+        font-size: 20px;
+    }
+    .face-rejuvenation-benefits h2 {
+        text-align: center;
+    }
+    .youtube-section {
+        margin-top: 60px;
+    }
+    .pain {
+        margin-top: 60px;
+    }
+}
+@media (max-width: 440px) {
+    .logo-image-section {
+        width: 90px;
+    }
+    .logo {
+        width: 90px;
+        height: 75px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .navigation-image {
+        width: 40px;
+    }
+    .designer {
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    .whatsapp-section h4 {
+        font-size: 18px;
+    }
 }
