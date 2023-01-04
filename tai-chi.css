@@ -75,6 +75,9 @@ header {
     text-decoration: none;
     color: black;
 }
+.mobile-navigation {
+    display: none;
+}
 .home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
     padding: 20px;
 }
@@ -90,6 +93,8 @@ main {
 }
 main h1 {
     color: orange;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .tai-chi-first-part {
     padding-left: 20px;
@@ -228,4 +233,92 @@ footer p {
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
+}
+
+@media (max-width: 1110px) {
+    .book-section {
+        flex-direction: column;
+    }
+    .book-section p {
+        text-align: center;
+    }
+}
+@media (max-width: 720px) {
+    .logo-section {
+        width: 90vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+    }
+    .logo-image-section {
+        width: 130px;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .whatsapp-section-top {
+        display: none;
+    }
+    .mobile-navigation {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation-image {
+        width: 75px;
+        margin-right: 5vw;
+    }
+    .navigation-bar {
+        display: none;
+    }
+}
+@media (max-width: 640px) {
+    .logo-image-section {
+        width: 100px;
+    }
+    .logo {
+        width: 100px;
+        height: 85px;
+    }
+    .name {
+        font-size: 24px;
+    }
+    .navigation-image {
+        width: 50px;
+    }
+    .tai-chi-photo-section {
+        flex-direction: column;
+    }
+    .tai-chi-photo-section img {
+        width: 90vw;
+    }
+    .tai-chi-photo-section p {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .name {
+        font-size: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .logo-image-section {
+        width: 78px;
+    }
+    .logo {
+        width: 78px;
+        height: 65px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .navigation-image {
+        width: 40px;
+    }
+    .designer {
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    .whatsapp-section h4 {
+        font-size: 18px;
+    }
 }
