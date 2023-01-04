@@ -557,9 +557,6 @@ footer p {
     }
 }
 @media (max-width: 480px) {
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-    }
     .name {
         font-size: 20px;
     }
