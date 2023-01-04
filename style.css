@@ -520,16 +520,6 @@ footer p {
         width: 98vw;
         text-align: center;
     }
-    .feedbacks {
-        flex-direction: column;
-    }
-    .feedback {
-        width: 90vw;
-        margin: 60px 20px 0px 20px;
-    }
-    .last-feedback {
-        margin-bottom: 60px;
-    }
 }
 @media (max-width: 640px) {
     .logo-image-section {
