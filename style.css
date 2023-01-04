@@ -91,7 +91,6 @@ header {
 .slider {
     width: 60vw;
     overflow: hidden;
-    
 }
 .slides {
     display: flex;
@@ -481,17 +480,28 @@ footer p {
         display: none;
     }
     .slider {
-        width: 90vw;
+        width: 100vw;
     }
     .slide img {
-        width: 90vw;
+        width: 100vw;
     }
     .navigation-manual {
-        width: 90vw;  
+        width: 100vw;  
     }
-   
     .navigation-auto {
-        width: 90vw;
+        width: 100vw;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0%;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -100vw;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -200vw;
+    }
+    #radio4:checked ~ .first{
+        margin-left: -300vw;
     }
     .face-rejuvenation-first-part {
         flex-direction: column;
