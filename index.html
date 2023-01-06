@@ -24,8 +24,11 @@
                             <img src="images/whatsapp.png">
                             <h3 class="whatsapp" id="whatsapp"><a href="https://wa.me/27768006038">+27 76 800 60 38</a></h3>
                         </div>
-                        <div class="mobile-navigation">
+                        <div class="mobile-navigation" onclick="displayHamburgerMenu()">
                             <img src="images/navigation.png" class="navigation-image">
+                        </div>
+                        <div class="mobile-navigation-close" onclick="hideHamburgerMenu()">
+                            <img src="images/x.png" class="x-image">
                         </div>
                     </div>
                     <div>
@@ -36,6 +39,16 @@
                             <a href="acupuncture-treatment.html"><li class="acupuncture-treatment">Acupuncture Treatment</li></a>
                             <a href="#face-rejuvenation"><li class="face-rejuvenation">Face Rejuvenation</li></a>
                             <a href="blog.html"><li class="blog">Blog</li></a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="mobile-navigation-bar">
+                            <a href="index.html"><li class="home-mobile">Home</li></a>
+                            <a href="about.html"><li class="about-mobile">About</li></a>
+                            <a href="tai-chi.html"><li class="tai-chi-mobile">Tai Qi & Qi Gong</li></a>
+                            <a href="acupuncture-treatment.html"><li class="acupuncture-treatment-mobile">Acupuncture Treatment</li></a>
+                            <a href="#face-rejuvenation"><li class="face-rejuvenation-mobile">Face Rejuvenation</li></a>
+                            <a href="blog.html"><li class="blog-mobile">Blog</li></a>
                         </ul>
                     </div>
                 </section>
@@ -417,6 +430,23 @@
                     counter = 1;
                 }
             }, 5000)
+
+            function displayHamburgerMenu() {
+                let mobileNavigation = document.querySelector(".mobile-navigation");
+                let mobileNavigationClose = document.querySelector(".mobile-navigation-close");
+                let mobileNavigationBar = document.querySelector(".mobile-navigation-bar");
+                mobileNavigation.style.display = "none";
+                mobileNavigationClose.style.display = "block";
+                mobileNavigationBar.style.display = "block";
+            }
+            function hideHamburgerMenu() {
+                let mobileNavigation = document.querySelector(".mobile-navigation");
+                let mobileNavigationClose = document.querySelector(".mobile-navigation-close");
+                let mobileNavigationBar = document.querySelector(".mobile-navigation-bar");
+                mobileNavigation.style.display = "block";
+                mobileNavigationClose.style.display = "none";
+                mobileNavigationBar.style.display = "none";
+            }
         </script>
         </body>
 
