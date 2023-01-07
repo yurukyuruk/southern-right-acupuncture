@@ -510,7 +510,7 @@ footer p {
     .name {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 30px;
-        font-weight: 300;
+        font-weight: 500;
     }
     .whatsapp a {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -520,7 +520,7 @@ footer p {
     }
     .face-rejuvenation-section h1 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 300;
+        font-weight: 500;
         font-size: 30px;
     }
     .face-rejuvenation-information {
@@ -530,9 +530,9 @@ footer p {
     .face-rejuvenation-information p {
         text-align: center;
         color: rgb(100, 100, 100);
-        line-height: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .whatsapp-section-top {
         display: none;
