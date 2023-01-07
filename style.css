@@ -528,8 +528,10 @@ footer p {
     }
     .face-rejuvenation-information p {
         text-align: center;
-        color: rgb(85, 85, 85);
-        line-height: 20px;
+        color: rgb(100, 100, 100);
+        line-height: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .whatsapp-section-top {
         display: none;
