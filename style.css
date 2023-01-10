@@ -535,6 +535,7 @@ footer p {
         padding-right: 15px;
     }
     .face-rejuvenation-what-to-expect h2 {
+        font-weight: 500;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .face-rejuvenation-what-to-expect p {
@@ -547,10 +548,16 @@ footer p {
         font-size: 17px;
     }
     .face-rejuvenation-benefits-elements h2 {
+        font-weight: 500;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .benefit-items {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 17px;
     }
     .whatsapp-section-top {
         display: none;
