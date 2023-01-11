@@ -34,7 +34,7 @@ header {
     justify-content: center;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
   
 }
@@ -52,7 +52,7 @@ header {
 .whatsapp a {
     text-decoration: none;
     color: #ffffff8a;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     font-weight: 100;
     padding-left: 10px;
@@ -63,7 +63,7 @@ header {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     margin: 0;
     padding-left: 0;
@@ -109,7 +109,7 @@ header {
 .home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile, .blog-mobile {
     list-style: none;
     color: black;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     padding: 15px 5vw 15px 5vw;
 }
@@ -127,7 +127,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 50px 20px 50px 20px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .blog1 {
     border: 10px solid white;
@@ -169,7 +169,7 @@ footer {
     background-color: rgb(196, 195, 195);;
 }
 .whatsapp-section h4 {
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     margin: 15px;
 }
@@ -182,7 +182,7 @@ footer {
 }
 footer p {
     font-size: 16px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
