@@ -314,6 +314,9 @@ footer p {
         color: black;
         font-size: 18px;
     }
+    .mission-section p, .vision-section p {
+        line-height: 25px;
+    }
 }
 @media (max-width: 480px) {
     .name {
