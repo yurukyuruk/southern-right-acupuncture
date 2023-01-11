@@ -34,7 +34,7 @@ header {
     justify-content: center;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
 }
 .whatsapp-section-top {
@@ -51,9 +51,8 @@ header {
 .whatsapp a {
     text-decoration: none;
     color: #ffffff8a;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
-    font-weight: 100;
     padding-left: 10px;
     margin: 0;
 }
@@ -74,7 +73,7 @@ header {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     margin: 0;
     padding-left: 0;
@@ -97,7 +96,7 @@ header {
 .home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile, .blog-mobile {
     list-style: none;
     color: black;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     padding: 15px 5vw 15px 5vw;
 }
@@ -209,7 +208,7 @@ header {
 }
 .face-rejuvenation-section h1 {
     text-align: center;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: orange;
     font-size: 36px;
     margin: 30px 0 30px 0;
@@ -218,7 +217,7 @@ header {
     display: flex;
 }
 .face-rejuvenation-information {
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-top: 10px solid rgba(217, 217, 217, 0.796);
     border-bottom: 10px solid rgba(217, 217, 217, 0.796);
     padding: 20px;
@@ -231,13 +230,13 @@ header {
     display: flex;
     flex: 1;
     flex-direction: column;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 20px;
     font-size: 20px;
 }
 .face-rejuvenation-what-to-expect h2{
     text-align: center;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #b88838;
     font-size: 24px;
     margin-top: 0;
@@ -257,7 +256,7 @@ header {
     flex-direction: column;
     width: 98vw;
     align-self: center;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: dotted 10px orange;
     border-radius: 400px;
 }
@@ -276,7 +275,7 @@ header {
 .face-rejuvenation-benefits ul li {
     display: flex;
     width: 100%;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
@@ -291,7 +290,7 @@ header {
     margin-top: -10px;
 }
 .face-rejuvenation-benefits h2 {
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: orange;
     font-size: 30px;
     text-align: flex-start;
@@ -347,7 +346,7 @@ header {
 }
 .whatsapp-number-link {
     text-align: center;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgba(217, 217, 217, 0.6);
     border-top: 2px solid white;
     padding: 20px;
@@ -363,7 +362,7 @@ header {
     margin-top: 120px;
     display: flex;
     align-items: center;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .pain-header {
     padding: 1px;
@@ -373,7 +372,7 @@ header {
 }
 .pain div h1 {
     font-size: 36px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding-bottom: 30px;
     color: orange;
@@ -422,7 +421,7 @@ header {
     width: 30vw;
     background-color: white;
     font-size: 16px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 60px 20px 60px 20px;
     border-radius: 50px;
     padding: 5px;
@@ -459,7 +458,7 @@ footer {
     background-color: rgb(196, 195, 195);
 }
 .whatsapp-section h4 {
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     margin: 15px;
 }
@@ -472,7 +471,7 @@ footer {
 }
 footer p {
     font-size: 16px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 0;
@@ -508,23 +507,14 @@ footer p {
         padding: 0;
     }
     .name {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 30px;
         font-weight: 500;
     }
-    .whatsapp a {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile, .blog-mobile {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
     .face-rejuvenation-section h1 {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 500;
         font-size: 30px;
     }
     .face-rejuvenation-information {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 17px;
     }
     .face-rejuvenation-information p {
@@ -536,10 +526,8 @@ footer p {
     }
     .face-rejuvenation-what-to-expect h2 {
         font-weight: 500;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .face-rejuvenation-what-to-expect p {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: center;
         color: rgb(100, 100, 100);
         line-height: 25px;
@@ -549,10 +537,8 @@ footer p {
     }
     .face-rejuvenation-benefits-elements h2 {
         font-weight: 500;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .benefit-items {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: rgb(100, 100, 100);
         line-height: 25px;
         padding-left: 15px;
@@ -565,7 +551,6 @@ footer p {
     }
     .whatsapp-number-link p {
         font-size: 17px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: rgb(100, 100, 100);
         line-height: 25px;
         padding-left: 15px;
@@ -631,8 +616,18 @@ footer p {
     .pain {
         flex-direction: column;
     }
+    .pain-header h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
     .pain-first-part {
         padding-right: 20px;
+    }
+    .pain-first-part p, .pain-second-part p, .pain-second-part ul li {
+        font-size: 17px;
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .pain-second-part {
         padding-left: 20px;
@@ -705,6 +700,9 @@ footer p {
     .x-image {
         width: 25px;
         height: 25px;
+    }
+    .arrow {
+        width: 120px;
     }
     .designer {
         flex-direction: column;
