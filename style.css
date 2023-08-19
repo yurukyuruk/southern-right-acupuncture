@@ -8,7 +8,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("images/background7.jpg");
+    background-image: url("images/images-last/background-homepage-big.jpg");
     background-size: 100vw 100%;
 }
 .logo-image-section {
@@ -44,7 +44,7 @@ header {
     justify-content: center;
     padding: 50px 2px 50px 2px;
 }
-.whatsapp-section-top img {
+.whatsapp-section-top picture source, .whatsapp-section-top picture img {
     width: 32px;
     height: 32px;
 }
@@ -386,7 +386,7 @@ header {
     padding-left: 20px;
 }
 .pain-second-part {
-    background-image: url("images/back-white-2.jpg");
+    background-image: url("images/images-last/pain-management.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -620,6 +620,9 @@ footer p {
     }
 }
 @media (max-width: 480px) {
+    header {
+        background-image: url("images/images-last/background-homepage-small.jpg");
+    }
     .name {
         font-size: 20px;
     }

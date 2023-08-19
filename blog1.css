@@ -8,7 +8,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../../images/background8.jpg");
+    background-image: url("../../images/images-last/background-other-pages-big.jpg");
     background-size: 100vw 100%;
 }
 .logo-image-section {
@@ -45,7 +45,7 @@ header {
     justify-content: center;
     padding: 50px 2px 50px 2px;
 }
-.whatsapp-section-top img {
+.whatsapp-section-top picture source, .whatsapp-section-top picture img {
     width: 32px;
     height: 32px;
 }
@@ -136,7 +136,7 @@ main section div {
     font-size: 18px;
     color: gray;
 }
-section img {
+section picture source, section picture img {
     width: 400px;
 }
 footer {
@@ -232,6 +232,9 @@ footer p {
     }
 }
 @media (max-width: 480px) {
+    header {
+        background-image: url("../../images/images-last/background-other-pages-small.jpg");
+    }
     .name {
         font-size: 20px;
     }
